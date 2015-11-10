@@ -339,6 +339,7 @@ section.success a.active {
   text-align: center;
   text-decoration: none !important;
   display: block;
+  margin-bottom: 40px;
 }
 #portfolio * {
   z-index: 2;
