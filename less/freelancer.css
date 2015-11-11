@@ -93,27 +93,27 @@ header .intro-text .skills {
 }
 @media screen and (max-width: 480px) {
   .heroJazz {
-    content: url("../img/hero/hero-jazz-xs.jpg");
+    background-image: url("../img/hero/hero-jazz-xs.jpg");
     max-height: 95%;
     max-width: 95%;
   }
 }
 @media screen and (min-width: 480px) {
   .heroJazz {
-    content: url("../img/hero/hero-jazz.jpg");
+    background-image: url("../img/hero/hero-jazz.jpg");
     width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
   .heroAir {
-    content: url("../img/hero/hero-air-xs.jpg");
+    background-image: url("../img/hero/hero-air-xs.jpg");
     max-height: 95%;
     max-width: 95%;
   }
 }
 @media screen and (min-width: 480px) {
   .heroAir {
-    content: url("../img/hero/hero-air.jpg");
+    background-image: url("../img/hero/hero-air.jpg");
     width: 100%;
   }
 }
@@ -335,11 +335,12 @@ section.success a.active {
 #portfolio .portfolio-item .thumb-name:hover {
   color: #0e1721;
   font-weight: 400;
+  font-size: 12px;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none !important;
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 #portfolio * {
   z-index: 2;
